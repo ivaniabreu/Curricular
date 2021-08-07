@@ -1,0 +1,150 @@
+html {
+    overflow: auto;
+    position: relative;
+    min-height: 100%;
+}
+
+/*Edicão do corpo*/
+body {
+    margin: 0 0 10% !important; /* altura do seu footer */
+    font-family: Nunito, sans-serif;
+    color: #000000;
+    background-color: #000000;
+}
+
+/*Edição do topo e bloco onde fica as divs*/
+#topo {
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.8;
+    font-size: 28px;
+    font-family: Courier, monospace;
+}
+
+.bloco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 4%;
+    margin: 2%;
+    color: rgb(255, 255, 255);
+}
+
+/*Botões*/
+.botao {
+    font-family: Courier, monospace;
+    font-size: 1em;
+    text-decoration: none;
+    color: #d3a5cf;
+    background-color: #49085c;
+    padding: 6px 14px;
+    border-radius: 4px;
+}
+
+/*Editor da fonte e cor dos textos*/
+.editaveis {
+    font-family: Courier, monospace;
+    opacity: 0.4;
+}
+
+.texto {
+    text-align: center;
+    font-family: Courier, monospace;
+    color: #ffffff;
+    
+}
+
+/*Container das imagens do wpp e insta*/
+.container a {
+    max-width: 25px;
+    max-height: 25px;
+    margin: 0.2em;
+    text-decoration: none;
+}
+
+.container img {
+    max-width: 28px;
+    max-height: 28px;
+    width: auto;
+    height: auto;   
+}
+
+/* navegação */
+nav {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    padding: 10px 4px 10px 4px;
+    background-color: #0c0c0c;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #39004b;
+    padding: 6px 18px;
+    border-radius: 4px;
+}
+
+/* cabeçalho */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 1em;
+    padding: 2em auto;
+    background: #0c0c0c;
+    color: #ffffff;
+}
+
+
+footer h2, h4 {
+    text-align: center;
+    font-family: Courier, monospace;
+    color: #9e9c9c;
+    opacity: 0.3;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+/*animação {testar novas coisas}*/
+#animation {
+    animation-name: slidein;
+    animation-duration: 4s;    
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+}
+@keyframes slidein {
+  from {
+    width: 90%
+  }
+
+  to {
+    width: 90%;
+  }
+
+  50% {
+    font-size: 200%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .bloco {
+        height: 800px;
+        height: 22vh;
+        justify-content: center;
+    }
+}
+    
