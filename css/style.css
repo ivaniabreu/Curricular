@@ -17,7 +17,7 @@ body {
     text-decoration: none;
     color: #ffffff;
     opacity: 0.8;
-    font-size: 28px;
+    font-size: 1.75em;
     font-family: Courier, monospace;
 }
 
@@ -38,8 +38,8 @@ body {
     text-decoration: none;
     color: #d3a5cf;
     background-color: #49085c;
-    padding: 6px 14px;
-    border-radius: 4px;
+    padding: 0.375em 0.875em;
+    border-radius: 0.25em;
 }
 
 /*Editor da fonte e cor dos textos*/
@@ -57,15 +57,15 @@ body {
 
 /*Container das imagens do wpp e insta*/
 .container a {
-    max-width: 25px;
-    max-height: 25px;
+    max-width: 1.625em;
+    max-height: 1.625em;
     margin: 0.2em;
     text-decoration: none;
 }
 
 .container img {
-    max-width: 28px;
-    max-height: 28px;
+    max-width: 1.75em;
+    max-height: 1.75em;
     width: auto;
     height: auto;   
 }
@@ -76,17 +76,17 @@ nav {
     flex-direction: column;
     list-style: none;
     align-items: center;
-    padding: 10px 4px 10px 4px;
+    padding: 0.625em 0.25em 0.625em 0.25em;
     background-color: #0c0c0c;
 }
 
 nav ul a {
     text-decoration: none;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 0.875em;
     background-color: #39004b;
-    padding: 6px 18px;
-    border-radius: 4px;
+    padding: 0.375em 1.125em;
+    border-radius: 0.25em;
 }
 
 /* cabeçalho */
@@ -96,8 +96,8 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
-    border-radius: 1em;
-    padding: 2em auto;
+    border-radius: 0.25em;
+    padding: 0.375em auto;
     background: #0c0c0c;
     color: #ffffff;
 }
